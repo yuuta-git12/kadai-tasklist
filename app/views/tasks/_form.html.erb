@@ -1,8 +1,5 @@
 <div class="row">
-  <div class="col-xs-12">　 <%#横幅767px以下の画面調整用#%>
-    <div class="col-sm-offset-2 col-sm-8">　<%#横幅768px以上の画面調整用#%>
-      <div class="col-lg-offset-3 col-lg-6">　<%#横幅1200px以上の画面調整用#%>
-    
+    <div class ="col-xs-12 col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6">
         <%= form_for(task) do |f| %>
           <% if task.errors.any? %>
             <div class="alert alert-warning">
@@ -28,7 +25,5 @@
   
         <% end %>
     
-     </div>
     </div>
-  </div>
 </div>
